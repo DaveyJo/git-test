@@ -1,0 +1,58 @@
+body {
+    background-image: url("coffeeshop.jpeg");
+    background-color: black;
+    font-family: Helvetica, Tahoma, Arial, sans-serif;
+    text-align: center;
+}
+
+.text-primary {
+    color: white;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: rgb(24, 192, 204);
+    font: 32px Garamond, Helvetica, serif;
+    border: 3px solid black
+}
+
+#pretentious {
+    color: #ffffff;
+}
+
+#submit-btn {
+    color: yellowgreen;
+    background: blue;
+    border-color: cornsilk;
+    text-align: center;
+}
+
+table {
+    width: 40%;
+    border: 1px solid black;
+    text-align: left
+}
+
+tr:nth-child(even) {
+    background: #ccc;
+}
+
+tr:nth-child(odd) {
+    background: #fff;
+}
+
+thead {
+    text-align: left;
+}
+
+label {
+    display: block;
+}
+
+#submit-btn {
+    display: block;
+}
